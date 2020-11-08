@@ -3,7 +3,6 @@
 <url> <loc>https://wayneh.tw/BitD/1-basic</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/2-characters/01-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/5-downtime/07-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://wayneh.tw/BitD/3-crew</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/5-downtime/08-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/3-crew/01-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/2-characters</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -14,6 +13,7 @@
 <url> <loc>https://wayneh.tw/BitD/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/6-resourses/01-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/5-downtime/06-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://wayneh.tw/BitD/3-crew</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/4-score/01-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/1-basic/05-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/1-basic/14-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
