@@ -6,6 +6,8 @@
 <url> <loc>https://wayneh.tw/BitD/6-resourses/01-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/1-basic</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/1-basic/05-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://wayneh.tw/BitD/1-basic/07-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://wayneh.tw/BitD/2-characters/01-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/3-crew</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/5-downtime</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/4-score</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -20,7 +22,6 @@
 <url> <loc>https://wayneh.tw/BitD/5-downtime/08-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/4-score/01-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/3-crew/01-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://wayneh.tw/BitD/2-characters/01-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/5-downtime/09-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/2-characters/02-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/1-basic/03-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -29,7 +30,6 @@
 <url> <loc>https://wayneh.tw/BitD/1-basic/04-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/1-basic/06-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/1-basic/08-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://wayneh.tw/BitD/1-basic/07-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/1-basic/09-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/1-basic/10-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://wayneh.tw/BitD/1-basic/14-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
