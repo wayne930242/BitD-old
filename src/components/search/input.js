@@ -84,7 +84,7 @@ export default connectSearchBox(({ refine, ...rest }) => {
       <Input
         className={'searchInput '}
         type="text"
-        placeholder="Search"
+        placeholder="搜尋"
         aria-label="Search"
         onChange={e => refine(e.target.value)}
         {...rest}

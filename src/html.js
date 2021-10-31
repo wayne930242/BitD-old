@@ -5,10 +5,12 @@ import config from '../config';
 export default class HTML extends React.Component {
   render() {
     return (
-      <html {...this.props.htmlAttributes} lang="en">
+      <html {...this.props.htmlAttributes} lang="zh-TW">
         <head>
+          <title>{config.siteMetadata.title}</title>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+          <meta name="description" content={config.siteMetadata.description} />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           {config.siteMetadata.ogImage ? (
             <meta property="og:image" content={config.siteMetadata.ogImage} />

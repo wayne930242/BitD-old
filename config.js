@@ -1,36 +1,36 @@
 const config = {
   gatsby: {
-    pathPrefix: '/',
-    siteUrl: 'https://hasura.io',
-    gaTrackingId: null,
+    pathPrefix: '/BitD',
+    siteUrl: 'https://wayneh.tw/BitD',
+    gaTrackingId: process.env.GA_ID,
     trailingSlash: false,
   },
   header: {
-    logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
-    logoLink: 'https://hasura.io/learn/',
+    logo: 'https://i.imgur.com/OvpWSmY.png',
+    logoLink: '/',
     title:
-      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
+      '暗夜冷鋒',
+    githubUrl: 'https://github.com/wayne930242/BitD/',
     helpUrl: '',
     tweetText: '',
     social: `<li>
-		    <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
+		    <a href="https://www.plurk.com/wayne930242" target="_blank" rel="noopener">
 		      <div class="twitterBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Discord'}/>
+		        <img src='https://i.imgur.com/X7ZvYKt.png' alt={'Plurk'}/>
 		      </div>
 		    </a>
-		  </li>
-			<li>
-		    <a href="https://discordapp.com/invite/hasura" target="_blank" rel="noopener">
-		      <div class="discordBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
+      </li>
+      <li>
+		    <a href="https://wayneh.tw" target="_blank" rel="noopener">
+		      <div class="twitterBtn">
+		        <img src='https://i.imgur.com/tzr2SH5.png' alt={'Blog'}/>
 		      </div>
 		    </a>
 		  </li>`,
-    links: [{ text: '', link: '' }],
+    links: [{ text: '贊助我', link: 'https://www.patreon.com/weihung'}],
     search: {
-      enabled: false,
-      indexName: '',
+      enabled: true,
+      indexName: 'blades-in-the-dark',
       algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
       algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
       algoliaAdminKey: process.env.ALGOLIA_ADMIN_KEY,
@@ -38,24 +38,34 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      '/introduction', // add trailing slash if enabled above
-      '/codeblock',
+      '/1-basic',
+      '/2-characters',
+      '/3-crew',
+      '/4-score',
+      '/5-downtime',
+      '/6-resources'
     ],
     collapsedNav: [
-      '/codeblock', // add trailing slash if enabled above
+      '/1-basic',
+      '/2-characters',
+      '/3-crew',
+      '/4-score',
+      '/5-downtime'
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [
+      { text: '原文', link: 'http://bladesinthedark.com' },
+    ],
     frontline: false,
     ignoreIndex: true,
     title:
-      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+      "中文 SRD",
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
-    ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    title: '暗夜冷鋒 SRD',
+    description: '由洪偉所翻譯的暗夜冷鋒（Blades in the Dark）SRD。',
+    ogImage: 'https://i.imgur.com/kWXFA73.png',
+    docsLocation: 'https://github.com/wayne930242/BitD/tree/master/content',
+    favicon: 'https://i.imgur.com/QZNWWVw.png',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
@@ -69,7 +79,7 @@ const config = {
       crossOrigin: 'use-credentials',
       icons: [
         {
-          src: 'src/pwa-512.png',
+          src: 'src/sword.png',
           sizes: `512x512`,
           type: `image/png`,
         },

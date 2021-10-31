@@ -3,6 +3,7 @@ import { injectGlobal } from 'emotion';
 export const baseStyles = injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
   @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,600,700&display=swap');
   * {
     margin: 0;
     padding: 0;
@@ -24,7 +25,7 @@ export const baseStyles = injectGlobal`
   }
   html,
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Roboto Light', 'Oxygen',
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI','Noto Sans TC' ,'Roboto', 'Roboto Light', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif,
       'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 
@@ -38,7 +39,7 @@ export const baseStyles = injectGlobal`
   }
 
   body {
-    font-family: 'Roboto';
+    font-family: 'Noto Sans TC';
   }
   .visibleMobile {
     display: none;
@@ -91,7 +92,6 @@ export const baseStyles = injectGlobal`
     color: #22863a;
     background-color: #f0fff4;
   }
-
   .diffRemoveLine {
     color: red;
     background-color: #ffcccc;
@@ -115,28 +115,23 @@ export const baseStyles = injectGlobal`
     width: 15px;
     margin-right: 5px;
   }
-
   .githubSection {
     display: flex;
     align-items: center;
     color: #000;
     opacity: 0.7;
   }
-
   .githubSection:hover {
     text-decoration: none;
     opacity: 1;
   }
-
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff !important;
   }
-
   .navbar-default .navbar-toggle:focus,
   .navbar-default .navbar-toggle:hover {
     background-color: #001933;
   }
-
   .headerWrapper {
     border-bottom: 1px solid rgb(212, 218, 223);
     box-shadow: rgba(116, 129, 141, 0.1) 0px 1px 1px 0px;
@@ -233,7 +228,6 @@ export const baseStyles = injectGlobal`
   .headerTitle a {
     color: #fff;
   }
-
   .headerTitle a:hover {
     text-decoration: none;
     opacity: 0.8;
@@ -251,7 +245,6 @@ export const baseStyles = injectGlobal`
     font-weight: 500;
     padding-right: 10px;
   }
-
   /* Header section starts here */
   .removePadd {
     padding: 0 !important;
@@ -284,9 +277,8 @@ export const baseStyles = injectGlobal`
     display: flex;
     align-items: center;
   }
-
   .navBarBrand img {
-    width: 120px;
+    width: 240px;
     margin-right: 6px;
     display: inline-block;
   }
@@ -297,7 +289,7 @@ export const baseStyles = injectGlobal`
     -webkit-overflow-scrolling: touch;
   }
   .navBarUL li a {
-    font-family: 'Roboto';
+    font-family: 'Noto Sans TC';
     color: #fff !important;
     font-size: 16px;
     font-weight: 500;
@@ -371,7 +363,7 @@ export const baseStyles = injectGlobal`
     /* box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16); */
     background-color: #f8f8f8;
     padding: 18px 16px;
-    font-family: 'Poppins';
+    font-family: 'Noto Sans TC';
     font-size: 18px;
     font-weight: 600;
     color: #001934;
@@ -394,38 +386,31 @@ export const baseStyles = injectGlobal`
     border-radius: 50%;
     margin: 0 12px;
   }
-
   .headerNav {
-    font-family: 'Roboto';
+    font-family: 'Noto Sans TC';
     padding: 0px 24px;
     color: #001933;
     font-size: 16px;
     font-weight: 500;
     line-height: 1em;
   }
-
   .headerNav a {
     color: #001933;
     text-decoration: none;
   }
-
   .headerNav a:hover {
     text-decoration: none;
   }
-
   .logoWrapper img {
     width: 40px;
   }
-
   .sideBarUL {
     margin-top: 32px;
   }
-
   .sideBarUL li {
     list-style-type: none;
     width: auto;
   }
-
   .sideBarUL li a {
     /* color: #fff; */
     font-size: 14px;
@@ -438,7 +423,6 @@ export const baseStyles = injectGlobal`
     border-width: 1px 0px 1px 1px;
     border-color: transparent currentcolor transparent transparent;
   }
-
   .hideFrontLine .collapser {
     background: transparent;
     border: none;
@@ -448,7 +432,6 @@ export const baseStyles = injectGlobal`
     z-index: 1;
     cursor: pointer;
   }
-
   .hideFrontLine .active > a {
     background-color: #1ed3c6;
     color: #fff !important;
@@ -459,16 +442,13 @@ export const baseStyles = injectGlobal`
   .active .collapser > svg > path {
     fill: #001933 !important;
   }
-
   .firstLevel ul .item ul .item {
     border-left: 1px solid #e6ecf1;
   }
-
   .sideBarUL .item {
     list-style: none;
     padding: 0;
   }
-
   .sideBarUL .item > a {
     color: #1ED3C6;
     text-decoration: none;
@@ -479,31 +459,25 @@ export const baseStyles = injectGlobal`
     padding-right: 35px;
     padding-left: 15px;
   }
-
   .showFrontLine .item > a:hover {
     background-color: #001933;
   }
-
   .showFrontLine .active > a {
     /* color: #fff; */
     background-color: #001933;
   }
-
   .sideBarUL .item .item {
     margin-left: 16px;
   }
-
   .firstLevel > ul > .item {
     margin-left: 0 !important;
   }
-
   .showFrontLine .item .item {
     border-left: 1px solid #e6ecf1;
     border-left-color: rgb(230, 236, 241);
     padding: 0;
     width: calc(100% - 16px) !important;
   }
-
   .showFrontLine .item .active > a {
     border-color: rgb(230, 236, 241) !important;
     border-style: solid none solid solid;
@@ -511,7 +485,6 @@ export const baseStyles = injectGlobal`
     background-color: #1ed3c6 !important;
     color: #fff;
   }
-
   .titleWrapper {
     display: flex;
     align-items: center;
@@ -519,7 +492,6 @@ export const baseStyles = injectGlobal`
     border-bottom: 1px solid rgb(230, 236, 241);
     margin-bottom: 32px;
   }
-
   .gitBtn {
     height: 30px;
     min-height: 30px;
@@ -892,5 +864,19 @@ export const baseStyles = injectGlobal`
     .searchWrapper {
       padding-left: 0px;
     }
+  }
+  em {
+    font-style: normal;
+    background-color: rgba(207, 233, 245, 0.6);
+  }
+  .game-term {
+    font-weight: 700;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 10px";
   }
 `;
