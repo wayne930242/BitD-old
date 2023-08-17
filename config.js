@@ -10,7 +10,7 @@ const config = {
     logoLink: '/',
     title:
       '暗夜冷鋒',
-    githubUrl: 'https://github.com/wayne930242/bitD/',
+    githubUrl: 'https://github.com/wayne930242/bitd/',
     helpUrl: '',
     tweetText: '',
     social: `<li>
@@ -64,7 +64,7 @@ const config = {
     title: '暗夜冷鋒 SRD',
     description: '由洪偉所翻譯的暗夜冷鋒（Blades in the Dark）SRD。',
     ogImage: 'https://i.imgur.com/kWXFA73.png',
-    docsLocation: 'https://github.com/wayne930242/BitD/tree/master/content',
+    docsLocation: 'https://github.com/wayne930242/bitd/tree/master/content',
     favicon: 'https://i.imgur.com/QZNWWVw.png',
   },
   pwa: {
