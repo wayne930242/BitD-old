@@ -1,6 +1,6 @@
 const config = {
   gatsby: {
-    pathPrefix: '/BitD',
+    pathPrefix: '/',
     siteUrl: 'https://bitd.wayneh.tw',
     gaTrackingId: process.env.GA_ID,
     trailingSlash: false,
