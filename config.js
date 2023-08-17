@@ -10,7 +10,7 @@ const config = {
     logoLink: '/',
     title:
       '暗夜冷鋒',
-    githubUrl: 'https://github.com/wayne930242/BitD/',
+    githubUrl: 'https://github.com/wayne930242/bitD/',
     helpUrl: '',
     tweetText: '',
     social: `<li>
