@@ -8,7 +8,7 @@ metaDescription: ""
 
 # 遊玩資源
 
-* [中文遊玩工具包（線上，複製到雲端硬碟使用）](https://docs.google.com/spreadsheets/d/1ZZx_PPcOlJb4bU5DdYtXNy4dtiVMOlOB6Oab3r5PKZA/edit#gid=1054647704)
+* [中文遊玩工具包（線上，複製到雲端硬碟使用）](https://docs.google.com/spreadsheets/d/1ZZx_PPcOlJb4bU5DdYtXNy4dtiVMOlOB6Oab3r5PKZA/edit#gid=1054647704) （與 JamesR 共同維護）
   * 角色卡
   * 幫派卡
   * 派系追蹤表
