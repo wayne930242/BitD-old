@@ -4,6 +4,9 @@
   "description": "Documentation, built with mdx",
   "author": "Praveen <praveen@hasura.io> (@praveenweb)",
   "version": "0.0.1",
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "@babel/plugin-proposal-export-default-from": "^7.12.13",
     "@emotion/react": "^11.1.5",
@@ -56,8 +59,8 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
+    "build": "gatsby build --prefix-paths",
     "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
     "lint": "eslint --fix \"src/**/*.{js,jsx}\"",
     "develop": "gatsby develop",
